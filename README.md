@@ -1,53 +1,44 @@
-# Instagram Clone
+# HTML & CSS Clone Projects
 
-This is a frontend Instagram clone project that I built using HTML and CSS.
+This repository contains websites and UI designs that I recreate using HTML and CSS.
 
-I created this project to practice building a real-world website layout and improve my understanding of responsive design, positioning, flexbox, spacing, and styling.
+I created these projects to improve my frontend development skills by practicing layouts, responsive design, styling, and recreating interfaces from real websites.
 
-## Features
+## Projects
 
-* Instagram-style sidebar navigation
-* Stories section with profile images
-* Post feed layout
-* Post header with username and time
-* Like, comment, share, and save icons
-* Dark theme similar to Instagram
-* Responsive layout for smaller screens
-* Hover effects on navigation and icons
+| #  | Project         | Technologies |
+| -- | --------------- | ------------ |
+| 01 | Instagram Clone | HTML, CSS    |
 
-## Technologies Used
+## What I Practice
 
 * HTML5
 * CSS3
-* Font Awesome
+* Flexbox
 * Responsive Design
+* CSS Positioning
+* Layout Design
+* Hover Effects
+* Spacing and Alignment
+* Recreating Real-World Interfaces
 
-## Project Structure
+## Repository Structure
 
 ```text
-Instagram-Clone/
+HTML-CSS-Clone-Projects/
 │
-├── index.html
+├── Instagram-Clone/
+│   ├── index.html
+│   └── README.md
+│
 └── README.md
 ```
 
-## What I Practiced
+## Goal
 
-* HTML page structure
-* CSS Flexbox
-* Fixed sidebar navigation
-* Responsive design using media queries
-* CSS gradients
-* Image styling
-* Hover effects
-* Layout positioning
-* Creating a social media feed UI
+The goal of this repository is to practice HTML and CSS by building different website clones and UI projects.
 
-## Purpose
-
-The main purpose of this project was to practice frontend development by recreating the basic layout and appearance of Instagram.
-
-This is a practice project and is not connected to the actual Instagram platform.
+I will continue adding new projects as I learn and improve my frontend development skills.
 
 ## Author
 
