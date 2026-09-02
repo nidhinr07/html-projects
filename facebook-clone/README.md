@@ -1,45 +1,52 @@
-# Facebook Clone
+# Facebook Login Page Clone
 
-This is a frontend Facebook clone project that I built using HTML and CSS.
+This is a Facebook login page clone that I built using HTML and CSS.
 
-I created this project to practice frontend development and improve my understanding of website layouts, responsive design, CSS styling, and recreating real-world user interfaces.
+I created this project to practice frontend development by recreating a familiar login page and working on layout, spacing, styling, and responsive design.
 
 ## Features
 
-* Facebook-style navigation bar
-* Sidebar navigation
-* Profile section
-* Post feed layout
-* Post cards
-* Like, comment, and share sections
-* Responsive layout
-* Hover effects
-* Facebook-style UI design
+* Facebook-style login page
+* Email or phone number input
+* Password input
+* Login button
+* Forgotten password link
+* Create new account button
+* Create a Page section
+* Responsive design for smaller screens
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-* Font Awesome
 * Responsive Design
 
 ## What I Practiced
 
-* HTML page structure
+* HTML forms
 * CSS Flexbox
-* CSS positioning
-* Responsive design
-* Layout and spacing
-* Image styling
-* Hover effects
-* Creating reusable UI sections
-* Recreating a real-world website interface
+* Page layout
+* Input styling
+* Buttons and hover effects
+* Box shadows
+* Responsive design using media queries
+* Spacing and alignment
 
 ## Purpose
 
-The main purpose of this project was to practice HTML and CSS by recreating the basic interface and layout of Facebook.
+The purpose of this project was to practice HTML and CSS by recreating the basic design of a Facebook login page.
 
-This is a practice project and is not connected to the actual Facebook platform.
+This is a frontend practice project and is not connected to the actual Facebook platform. The login form does not store or process real login information.
+
+## Project Structure
+
+```text
+Facebook-Login-Page/
+│
+├── index.html
+├── style.css
+└── README.md
+```
 
 ## Author
 
