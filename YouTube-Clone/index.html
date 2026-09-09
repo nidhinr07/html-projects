@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YouTube Clone</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="left-header">
+
+            <i class="fa-solid fa-bars menu"></i>
+
+            <div class="logo">
+                <i class="fa-brands fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+
+        </div>
+
+
+        <div class="search-area">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <button class="mic">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+
+        </div>
+
+
+        <div class="right-header">
+
+            <i class="fa-solid fa-video"></i>
+
+            <i class="fa-regular fa-bell"></i>
+
+            <img src="https://i.pravatar.cc/100?img=12"
+                alt="Profile">
+
+        </div>
+
+    </header>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <a href="#" class="active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Shorts</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-tv"></i>
+            <span>Subscriptions</span>
+        </a>
+
+        <hr>
+
+        <h3>You</h3>
+
+        <a href="#">
+            <i class="fa-regular fa-clock"></i>
+            <span>History</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-list"></i>
+            <span>Playlists</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-clock"></i>
+            <span>Watch later</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-thumbs-up"></i>
+            <span>Liked videos</span>
+        </a>
+
+        <hr>
+
+        <h3>Explore</h3>
+
+        <a href="#">
+            <i class="fa-solid fa-fire"></i>
+            <span>Trending</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-music"></i>
+            <span>Music</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>Gaming</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>News</span>
+        </a>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main">
+
+        <!-- CATEGORIES -->
+
+        <div class="categories">
+
+            <button class="selected">All</button>
+            <button>Music</button>
+            <button>Gaming</button>
+            <button>Live</button>
+            <button>Programming</button>
+            <button>Web Development</button>
+            <button>Movies</button>
+            <button>News</button>
+            <button>Recently uploaded</button>
+
+        </div>
+
+
+        <!-- VIDEO GRID -->
+
+        <section class="video-grid">
+
+
+            <!-- VIDEO 1 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=1"
+                        alt="Video">
+
+                    <span class="duration">12:45</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=11"
+                        alt="Channel">
+
+                    <div>
+                        <h3>Learn HTML and CSS From Scratch</h3>
+                        <p>Code Academy</p>
+                        <p>1.2M views · 2 days ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 2 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=2"
+                        alt="Video">
+
+                    <span class="duration">18:32</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=15"
+                        alt="Channel">
+
+                    <div>
+                        <h3>Python Full Stack Developer Roadmap</h3>
+                        <p>Programming Hub</p>
+                        <p>850K views · 5 days ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 3 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=3"
+                        alt="Video">
+
+                    <span class="duration">10:21</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=20"
+                        alt="Channel">
+
+                    <div>
+                        <h3>Build Your First Website With HTML</h3>
+                        <p>Web School</p>
+                        <p>560K views · 1 week ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 4 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=4"
+                        alt="Video">
+
+                    <span class="duration">25:10</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=25"
+                        alt="Channel">
+
+                    <div>
+                        <h3>CSS Flexbox Complete Tutorial</h3>
+                        <p>Frontend Masters</p>
+                        <p>320K views · 3 days ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 5 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=5"
+                        alt="Video">
+
+                    <span class="duration">15:48</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=30"
+                        alt="Channel">
+
+                    <div>
+                        <h3>JavaScript Beginner Tutorial</h3>
+                        <p>Code With Me</p>
+                        <p>920K views · 4 days ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 6 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=6"
+                        alt="Video">
+
+                    <span class="duration">22:05</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=35"
+                        alt="Channel">
+
+                    <div>
+                        <h3>How Websites Actually Work</h3>
+                        <p>Tech Explained</p>
+                        <p>450K views · 1 week ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 7 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=7"
+                        alt="Video">
+
+                    <span class="duration">14:26</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=40"
+                        alt="Channel">
+
+                    <div>
+                        <h3>10 CSS Tricks Every Developer Should Know</h3>
+                        <p>Dev Tips</p>
+                        <p>670K views · 2 weeks ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+
+            <!-- VIDEO 8 -->
+
+            <article class="video-card">
+
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/500/280?random=8"
+                        alt="Video">
+
+                    <span class="duration">31:40</span>
+                </div>
+
+                <div class="video-info">
+
+                    <img src="https://i.pravatar.cc/100?img=45"
+                        alt="Channel">
+
+                    <div>
+                        <h3>Complete Web Development Guide</h3>
+                        <p>Developer World</p>
+                        <p>1.5M views · 1 month ago</p>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
